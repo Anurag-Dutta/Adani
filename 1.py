@@ -9,7 +9,6 @@ plt.clf()  # Ensures a clean plotting canvas.
 plt.rc('text', usetex=True)
 plt.rc('figure', figsize=(1920, 1080))
 plt.rc('font', family='serif', serif=['Computer Modern Roman'], size=14)
-# plt.title("Sorting Improvised with Interpolation Search")
 plt.ylabel("$P(\delta)$")
 plt.xlabel("$\delta$")
 plt.plot(x, y1, "k--", label='$log_{10}(1+\\frac{1}{\delta})$')
